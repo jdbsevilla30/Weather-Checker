@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather Checker</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="title">The Weather Checker</h1>
+    <form id="submit-form" class="submit-form">
+      <label for="city-text">Please Enter Your City</label>
+      <input type="text" id="city-text" class="input-text inputs" />
+      <input type="submit" id="submit-btn" class="submit-btn inputs" />
+    </form>
+
+    <div id="weather-result" class="weather-result">
+      <h1>
+        City Name:
+        <p class="city-name inline">-empty-</p>
+      </h1>
+      <h1>
+        Temperature:
+        <p class="temperature inline">-empty-</p>
+      </h1>
+      <h1>
+        Realtime Weather:
+        <p class="weather inline">-empty-</p>
+      </h1>
+      <h1>
+        Humidity Level:
+        <p class="humidity inline">-empty-</p>
+      </h1>
+    </div>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
